@@ -1,7 +1,5 @@
 package io.magentys.cinnamon.webdriver.conditions;
 
-import io.magentys.cinnamon.webdriver.conditions.Condition;
-
 public class NotCondition<T> extends Condition<T> {
 
     private final Condition<T> condition;
