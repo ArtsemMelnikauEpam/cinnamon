@@ -1,7 +1,5 @@
 package io.magentys.cinnamon.webdriver.conditions;
 
-import io.magentys.cinnamon.webdriver.conditions.Condition;
-
 import java.util.Arrays;
 
 public class OrCondition<T> extends Condition<T> {
