@@ -16,7 +16,6 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.not;
 
 public class CinnamonAlert implements Alert {
 
-    private final Logger logger = LoggerFactory.getLogger(getClass());
     private final WebDriver webDriver;
     private final Alert alert;
 
