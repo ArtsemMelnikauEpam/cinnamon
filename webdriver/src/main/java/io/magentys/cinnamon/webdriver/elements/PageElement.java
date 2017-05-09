@@ -84,6 +84,11 @@ public interface PageElement extends WebElement, WrapsElement, Locatable, WrapsD
 
     PageElement hoverOver();
 
+    /**
+     * Double-clicks on the given element
+     *
+     * @return void
+     */
     void doubleClick();
 
     String text();
